@@ -1,2 +1,2 @@
-# portfolio_2021
-Mon portfolio 2021
+# Mon portfolio 2021
+Projet réalisé en HTML / CSS / SASS
