@@ -1,0 +1,17 @@
+@import 'mixins';
+
+.home {
+    @include content-adjusted();
+    background-color: #DF9881;
+    margin-bottom: 50px;
+    @include box-shadow();
+
+    .home__title {
+        font-size: 3em;
+    }
+
+    .home__text {
+        font-size: 1.2em;
+    }
+}
+

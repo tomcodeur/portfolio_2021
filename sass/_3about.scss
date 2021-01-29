@@ -1,0 +1,7 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: #9dad7f;
+    margin-bottom: 50px;
+    @include box-shadow();
+}

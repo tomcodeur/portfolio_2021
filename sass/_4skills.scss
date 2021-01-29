@@ -1,0 +1,6 @@
+.skills {
+    @include content-adjusted();
+    @include box-shadow();
+    background-color: #e3d0b9;
+    margin-bottom: 50px;
+}
