@@ -1,6 +1,54 @@
 .skills {
-    @include content-adjusted();
+    width: 100%;
+    height: 100vh;
+    background-color: #9dad7f;
+    margin-bottom: 50px;
     @include box-shadow();
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #e3d0b9;
     margin-bottom: 50px;
+    color: white;
+
+    &__title {
+        font-size: 3em;
+    }
+
+    &__block { 
+        font-size: 80px;
+        width: 360px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px 5px;
+    
+        & a {
+            text-decoration: none;
+            color: white;
+        }
+        & a:visited {
+            color: white;
+        }
+    
+        & svg {
+            margin: 20px 20px;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }
+    
+        & svg:hover {
+            -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+        }
+    }
 }
+
+.skills__text {
+    font-size: 0.2em;
+    font-style: italic;
+}
+
+
+
+

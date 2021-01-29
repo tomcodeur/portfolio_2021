@@ -4,4 +4,20 @@
     background-color: #9dad7f;
     margin-bottom: 50px;
     @include box-shadow();
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__title {
+        font-size: 3em;
+        color: white;
+    }
+
+    &__text {
+        font-size: 1.2em;
+        color: white;
+        line-height: 1.9;
+    }
 }
+
+
