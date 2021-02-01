@@ -11,8 +11,26 @@
         margin-bottom: 20px;
     }
 
-    .home__text {
+    .home__title span:not(.fade) {
+        opacity:0;
+        transform: translateY(50%) rotate(45deg);
+      }
+      
+    .home__title span {
+        transition:all .4s;
+        display:inline-block;
+    }
+
+    .home__title + .animated-text--typing {
         font-size: 1.2em;
     }
+
 }
 
+.animated-text--typing span.fade + span:not(.fade) {
+    transition: none;
+    background:rgb(255, 255, 255);
+    opacity:1;
+    transform: none;
+    color:transparent;
+}

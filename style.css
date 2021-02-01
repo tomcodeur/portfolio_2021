@@ -40,8 +40,24 @@
   font-size: 3em;
   margin-bottom: 20px;
 }
-.home .home__text {
+.home .home__title span:not(.fade) {
+  opacity: 0;
+  transform: translateY(50%) rotate(45deg);
+}
+.home .home__title span {
+  transition: all 0.4s;
+  display: inline-block;
+}
+.home .home__title + .animated-text--typing {
   font-size: 1.2em;
+}
+
+.animated-text--typing span.fade + span:not(.fade) {
+  transition: none;
+  background: white;
+  opacity: 1;
+  transform: none;
+  color: transparent;
 }
 
 .about {
