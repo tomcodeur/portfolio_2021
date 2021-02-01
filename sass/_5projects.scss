@@ -1,0 +1,65 @@
+.projects {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #776d8a;
+    margin-bottom: 50px;
+    color: white;
+
+    &__title {
+        align-self: center;
+        font-size: 3em;
+    }
+
+    &__content {
+        align-self: flex-end;
+        margin-bottom: 50px;
+    }
+
+    &__gallery {
+        align-self: center;
+        flex-wrap: wrap;
+        width: 400;
+        height: auto;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 25px 25px;
+        background-color: rgba(255, 255, 255, 0.096);
+        line-height: 1.8;
+
+        &.block{
+            margin-bottom: 25px ;
+            background-color: #776d8a;
+
+            &.--six {
+                margin: 0;
+            }
+        }
+
+
+        & a {
+            text-decoration: none;
+            color: white;
+        }
+
+        & a:visited {
+            color: white;
+        }
+
+        & svg {
+            font-size: 50px;
+            float:left;
+            margin-right: 20px;
+        }
+
+        & svg:hover {
+            opacity: 0.7;
+        }
+
+    }
+}
+
+.content__text {
+    line-height: 1.9;
+}
