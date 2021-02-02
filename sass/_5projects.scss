@@ -14,23 +14,24 @@
 
     &__content {
         align-self: flex-end;
-        margin-bottom: 50px;
+        padding-bottom: 30px;
     }
 
     &__gallery {
         align-self: center;
         flex-wrap: wrap;
-        width: 400;
-        height: auto;
+        width: 400px;
+        padding: 25px 25px;
         border: 1px solid white;
         border-radius: 10px;
-        padding: 25px 25px;
         background-color: rgba(255, 255, 255, 0.096);
         line-height: 1.8;
 
         &.block{
-            margin-bottom: 25px ;
+            margin-bottom: 25px;
+            padding: 20px 20px;
             background-color: #776d8a;
+            width: 348px;        
 
             &.--six {
                 margin: 0;
@@ -62,4 +63,5 @@
 
 .content__text {
     line-height: 1.9;
+    margin-bottom: 220px;
 }

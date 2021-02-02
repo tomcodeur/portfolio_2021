@@ -145,22 +145,23 @@
 }
 .projects__content {
   align-self: flex-end;
-  margin-bottom: 50px;
+  padding-bottom: 30px;
 }
 .projects__gallery {
   align-self: center;
   flex-wrap: wrap;
-  width: 400;
-  height: auto;
+  width: 400px;
+  padding: 25px 25px;
   border: 1px solid white;
   border-radius: 10px;
-  padding: 25px 25px;
   background-color: rgba(255, 255, 255, 0.096);
   line-height: 1.8;
 }
 .projects__gallery.block {
   margin-bottom: 25px;
+  padding: 20px 20px;
   background-color: #776d8a;
+  width: 348px;
 }
 .projects__gallery.block.--six {
   margin: 0;
@@ -183,12 +184,100 @@
 
 .content__text {
   line-height: 1.9;
+  margin-bottom: 220px;
 }
 
 .networks {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
   background-color: #79a3b1;
+}
+.networks__title {
+  margin-bottom: 30px;
+  font-size: 3em;
+}
+.networks__title.--small {
+  font-size: 2em;
+  margin-bottom: 35px;
+}
+.networks__text {
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 100px;
+}
+.networks__videos {
+  margin-bottom: 100px;
+  display: flex;
+}
+.networks__videos.block {
+  width: 400px;
+  height: 220px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.networks__videos.block svg {
+  font-size: 80px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 20px 20px;
+  background-color: #79a3b1;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.networks__videos.block svg:hover {
+  border-radius: 50%;
+  /* on arrondit l'image */
+  -webkit-transform: rotate(360deg);
+  /* rotation de l'image */
+  transform: rotate(360deg);
+}
+.networks__videos.block:hover > .description {
+  animation: my-animation 1s ease infinite;
+  display: flex;
+  opacity: 1;
+}
+.networks__videos.block a {
+  color: white;
+}
+.networks__videos.block p {
+  display: none;
+  margin-top: 25px;
+  text-align: center;
+}
+.networks__social {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.networks__social a {
+  color: white;
+  overflow: hidden;
+}
+.networks__social svg {
+  opacity: 0.5;
+}
+.networks__social svg:hover {
+  opacity: 1;
+}
+
+.footer__text {
+  margin-top: 50px;
+  font-size: 0.8em;
+  opacity: 0.5;
 }
 
 * {
