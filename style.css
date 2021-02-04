@@ -3,12 +3,14 @@
   height: 50px;
   background-color: transparent;
   position: fixed;
+  z-index: 1;
 }
 
 .navbar ul {
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
+  z-index: 2;
 }
 .navbar ul li {
   list-style-type: none;
@@ -98,7 +100,6 @@
   justify-content: space-around;
   align-items: center;
   background-color: #e3d0b9;
-  margin-bottom: 50px;
   color: white;
 }
 .skills__title {
@@ -151,6 +152,10 @@
   align-self: flex-end;
   padding-bottom: 30px;
 }
+.projects__content.content__text {
+  line-height: 1.9;
+  margin-bottom: 220px;
+}
 .projects__gallery {
   align-self: center;
   flex-wrap: wrap;
@@ -184,11 +189,6 @@
 }
 .projects__gallery svg:hover {
   opacity: 0.7;
-}
-
-.content__text {
-  line-height: 1.9;
-  margin-bottom: 220px;
 }
 
 .networks {
@@ -361,6 +361,126 @@
   }
   .home__title.animated-text--typing {
     font-size: 0.8em !important;
+  }
+}
+/* Partie Responsive - About */
+@media screen and (max-width: 1075px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about__text {
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .break__2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 765px) {
+  .about__text {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 666px) {
+  .about__text {
+    font-size: 1.1em;
+  }
+}
+/* Partie Responsive - Skills */
+@media screen and (max-width: 842px) {
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skills__title {
+    margin-bottom: 100px;
+  }
+
+  .break__1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 492px) {
+  .skills__title {
+    font-size: 3em;
+  }
+
+  .break__1 {
+    display: flex;
+  }
+}
+@media screen and (max-width: 398px) {
+  .skills__title {
+    font-size: 2.2em;
+  }
+
+  .skills__block {
+    font-size: 60px;
+  }
+}
+/* Partie Responsive - Projects */
+@media screen and (max-width: 1262px) {
+  .projects {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .projects__title {
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+  .projects__content {
+    align-self: center;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .projects__content.content__title {
+    margin-bottom: 10px;
+  }
+  .projects__content.content__text {
+    line-height: 1.9;
+    margin-bottom: 0;
+  }
+  .projects__gallery {
+    margin-bottom: 110px;
+  }
+}
+/* Partie Responsive - Networks */
+@media screen and (max-width: 1278px) {
+  .networks {
+    height: auto;
+  }
+
+  .networks__videos {
+    flex-direction: column;
+  }
+
+  .networks__title {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .networks__title.--small {
+    margin-top: 0;
+  }
+
+  .networks__text {
+    margin-bottom: 100px;
+  }
+
+  .networks__videos {
+    margin-bottom: 50px;
+  }
+
+  .footer__text {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .networks__videos.block p {
+    display: flex;
   }
 }
 * {

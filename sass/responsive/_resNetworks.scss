@@ -1,0 +1,41 @@
+/* Partie Responsive - Networks */
+
+@media screen and (max-width: 1278px) {
+
+    .networks {
+        height: auto;
+    }
+
+    .networks__videos {
+        flex-direction: column;
+    }
+
+    .networks__title {
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+        &.--small {
+            margin-top: 0;
+        }
+    }
+
+    .networks__text {
+        margin-bottom: 100px;
+    }
+
+    .networks__videos {
+        margin-bottom: 50px;
+    }
+
+    .footer__text {
+        margin-bottom: 80px;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+     
+    .networks__videos.block p {
+        display: flex;
+    }
+ }
+

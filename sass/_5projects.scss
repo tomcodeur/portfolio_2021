@@ -15,6 +15,11 @@
     &__content {
         align-self: flex-end;
         padding-bottom: 30px;
+
+        &.content__text {
+            line-height: 1.9;
+            margin-bottom: 220px;
+        }
     }
 
     &__gallery {
@@ -59,9 +64,4 @@
         }
 
     }
-}
-
-.content__text {
-    line-height: 1.9;
-    margin-bottom: 220px;
 }

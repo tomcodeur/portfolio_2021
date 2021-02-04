@@ -3,12 +3,14 @@
     height: 50px;
     background-color: transparent;
     position: fixed;
+    z-index: 1;
 }
 
 .navbar ul {
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
+    z-index: 2;
 
     & li {
         list-style-type: none;

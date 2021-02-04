@@ -1,0 +1,30 @@
+/* Partie Responsive - About */
+
+@media screen and (max-width: 1075px) {
+    .about {
+        flex-direction: column;
+        justify-content: center;
+
+        &__text {
+            margin-top: 70px;
+            text-align: center;
+        }
+    }
+
+    .break__2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 765px) {  
+    
+    .about__text {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 666px) { 
+    .about__text {
+        font-size: 1.1em;
+    }
+}
