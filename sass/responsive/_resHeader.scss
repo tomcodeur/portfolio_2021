@@ -1,0 +1,48 @@
+/* Partie Responsive - Header */
+
+@media screen and (max-width: 768px) {
+    
+    .navbar ul {
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 628px) {
+    .navbar ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 540px) {
+
+    .navbar ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar__blog {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        padding: 15px 20px;
+
+        &:hover {
+            opacity: 0.6;
+        }
+
+    }
+}
+

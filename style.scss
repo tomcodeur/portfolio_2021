@@ -5,6 +5,9 @@
 @import 'sass/5projects';
 @import 'sass/6networks';
 
+@import 'sass/responsive/resHeader';
+@import 'sass/responsive/resHome';
+
 * {
     box-sizing: border-box;
     margin: 0;

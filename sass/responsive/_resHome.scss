@@ -1,0 +1,54 @@
+/* Partie Responsive - Home */
+
+@media screen  and (max-width: 628px) {
+    .home__title {
+        text-align: center;
+        font-size: 2.2em !important;
+
+        &.animated-text--typing {
+            font-size: 1.2em !important;
+        }
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .home__title {
+        font-size:  2em !important;
+
+        &.animated-text--typing {
+            font-size: 1.2em !important;
+        }
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 430px ) {
+    .home__title {
+        font-size:  1.7em !important;
+
+        &.animated-text--typing {
+            font-size: 1em !important;
+        }
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 375px) {
+    .home__title {
+        font-size:  1.5em !important;
+
+        &.animated-text--typing {
+            font-size: 0.9em !important;
+        }
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .home__title {
+        font-size:  1.3em !important;
+
+        &.animated-text--typing {
+            font-size: 0.8em !important;
+        }
+    }
+}
+
+
