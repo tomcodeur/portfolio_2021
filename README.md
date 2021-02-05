@@ -1,3 +1,3 @@
 # Mon portfolio 2021
 Projet réalisé en HTML / CSS / SASS <br>
-En développement actuellement
+Version 1.0 disponible

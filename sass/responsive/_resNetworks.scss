@@ -32,10 +32,61 @@
     }
  }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
      
     .networks__videos.block p {
         display: flex;
+    }
+ }
+
+@media screen and (max-width: 424px) {
+    .networks__text {
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+
+     .networks__break {
+         display: none;
+     }
+
+     .networks__videos.block {
+        width: 335px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+ 
+ }
+
+@media screen and (max-width: 360px) {
+    .networks__videos.block {
+        width: 335px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+ 
+ }
+
+@media screen and (max-width: 374px) {
+    .networks__videos.block {
+        width: 320px;
+    }
+}
+
+
+
+ @media screen and (max-width: 328px) {
+    .networks__title { 
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    .networks__break {
+        display: none;
+    }
+
+    .networks__videos.block {
+        width: 230px;
     }
  }
 

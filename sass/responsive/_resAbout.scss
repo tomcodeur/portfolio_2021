@@ -20,11 +20,45 @@
     
     .about__text {
         font-size: 1.2em;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
 @media screen and (max-width: 666px) { 
     .about__text {
         font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 683px) {
+    .about__text br:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .about__text br:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 596px) {
+
+    .about__title {
+        font-size: 2.2em;
+        padding-left: 12px;
+        padding-right: 12px;
+        text-align: center;
+    }
+
+    .about__text {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    .about__break {
+        display: none;
     }
 }
