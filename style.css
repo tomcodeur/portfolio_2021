@@ -120,12 +120,12 @@
 .skills__block a:visited {
   color: white;
 }
-.skills__block svg {
+.skills__block i {
   margin: 20px 20px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.skills__block svg:hover {
+.skills__block i:hover {
   -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
@@ -182,12 +182,12 @@
 .projects__gallery a:visited {
   color: white;
 }
-.projects__gallery svg {
-  font-size: 50px;
+.projects__gallery i {
+  font-size: 40px;
   float: left;
   margin-right: 20px;
 }
-.projects__gallery svg:hover {
+.projects__gallery i:hover {
   opacity: 0.7;
 }
 
@@ -230,8 +230,8 @@
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.2);
 }
-.networks__videos.block svg {
-  font-size: 80px;
+.networks__videos.block i {
+  font-size: 30px;
   border: 3px solid white;
   border-radius: 50%;
   padding: 20px 20px;
@@ -241,7 +241,7 @@
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.networks__videos.block svg:hover {
+.networks__videos.block i:hover {
   border-radius: 50%;
   /* on arrondit l'image */
   -webkit-transform: rotate(360deg);
@@ -271,10 +271,10 @@
   color: white;
   overflow: hidden;
 }
-.networks__social svg {
+.networks__social i {
   opacity: 0.5;
 }
-.networks__social svg:hover {
+.networks__social i:hover {
   opacity: 1;
 }
 

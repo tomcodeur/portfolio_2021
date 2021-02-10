@@ -30,13 +30,13 @@
             color: white;
         }
     
-        & svg {
+        & i {
             margin: 20px 20px;
             -webkit-transition: all 0.5s ease;
             transition: all 0.5s ease;
         }
     
-        & svg:hover {
+        & i:hover {
             -webkit-transform: rotate(-15deg);
             transform: rotate(-15deg);
         }
